@@ -2,15 +2,15 @@ import React from 'react';
 
 function FoxFacts() {
  const facts = [
-   'Foxes can see sounds!',
-   'The scientific name for a fox is Vulpes vulpes.',
-   'Foxes communicate using a complex network of sounds.',
-   'A group of foxes is called a "vulpine".',
-   'The fox is the national animal of India.',
-   'A vixen is a female fox.',
-   'Foxes are related to the wolf and the domestic dog.',
-   'A fox has 34 teeenths!',
-   'A fox has 5 sets of toes on its hind feet and 4 sets on its front feet.',
+   'Foxes are great night-time predators',
+   'Foxes are considered to be solitary animals',
+   'Foxes can make over 40 different sounds',
+   'Foxes make use of the earths magnetic field to hunt',
+   'People used to fear foxes but they are actually considered friendly animals',
+   'Foxes only reproduce once a year',
+   'Baby foxes are unable to see, walk or thermoregulate when they are born',
+   'Foxes dont just live in rural areas, they also live in cities',
+   'Foxes have a very varied diet',
    'A fox is one of the few animals that can jump higher than it is tall.',
  ];
 
