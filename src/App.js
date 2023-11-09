@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import FoxImage from './components/FoxImage';
+import Comments from './components/Comments';
+import AddImage from './components/AddImage';
+import FoxFacts from './components/FoxFacts';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+      <NavBar/>
+        <Routes>
+          <Route path="/" element={<FoxImage />} />
+          <Route path="/comments" element={<Comments />} />
+          <Route path="/addimage" element={<AddImage />} />
+          <Route path="/foxfacts" element={<FoxFacts />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
 export default App;
+
