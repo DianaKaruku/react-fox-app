@@ -1,0 +1,24 @@
+/* NavBar.css */
+
+nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px; /* Add padding for better visual appearance */
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for the active NavLink */
+  nav a.active {
+    font-weight: bold;
+    /* Add any additional styles for the active NavLink */
+  }
+  

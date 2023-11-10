@@ -1,14 +1,22 @@
-// NavBar.js
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import './NavBar.css'; 
 
 const NavBar = () => {
   return (
     <nav>
-      <Link to="/">Home</Link>
-      <Link to="/comments">Comments</Link>
-      <Link to="/addimage">Add Image</Link>
-      <Link to="/foxfacts">Fox Facts</Link>
+      <NavLink to="/" activeClassName="active">
+        Home
+      </NavLink>
+      <NavLink to="/comments" activeClassName="active">
+        Comments
+      </NavLink>
+      <NavLink to="/addimage" activeClassName="active">
+        Add Image
+      </NavLink>
+      <NavLink to="/foxfacts" activeClassName="active">
+        Fox Facts
+      </NavLink>
     </nav>
   );
 };

@@ -1,0 +1,27 @@
+.AddImageContainer {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .FileInput {
+    margin-bottom: 20px;
+  }
+  
+  .UploadButton {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .UploadButton:hover {
+    background-color: #45a049;
+  }
+  

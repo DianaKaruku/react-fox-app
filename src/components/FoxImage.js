@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './FoxImage.css'; 
 
 const FoxImage = () => {
   const [foxImage, setFoxImage] = useState(null);
@@ -14,10 +15,12 @@ const FoxImage = () => {
   };
 
   return (
-    <div>
-      <h1>Fox Image Generator</h1>
-      <button onClick={fetchFox}>Generate Random Fox</button>
-      {foxImage && <img src={foxImage} alt="Random Fox" />}
+    <div className="fox-image-container">
+      <h1 className="fox-title">Fox Image Generator</h1>
+      <button className="generate-button" onClick={fetchFox}>
+        Generate Random Fox
+      </button>
+      {foxImage && <img className="fox-image" src={foxImage} alt="Random Fox" />}
     </div>
   );
 };
