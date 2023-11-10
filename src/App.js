@@ -5,7 +5,7 @@ import Comments from './components/Comments';
 import AddImage from './components/AddImage';
 import FoxFacts from './components/FoxFacts';
 import NavBar from './components/NavBar';
-import "./App.css"
+
 
 function App() {
   return (
